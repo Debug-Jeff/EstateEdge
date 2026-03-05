@@ -1,9 +1,10 @@
 import React from 'react'
+import HeroSection from '@/app/(nondashboard)/landing/HeroSection'
 
 const Landing = () => {
     return (
         <div>
-            Landing page
+            <HeroSection />
         </div>
     )
 }

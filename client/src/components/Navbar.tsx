@@ -13,7 +13,7 @@ function Navbar() {
                 <div className='flex items-center gap-4 md:gap-6'>
                     <Link
                         href="/"
-                        className='cursor-pointer hover:!text-primary-300'
+                        className='cursor-pointer hover:text-primary-300!'
                         scroll={false}>
                         <div className='flex items-center gap-3'>
                             <Image
@@ -45,7 +45,7 @@ function Navbar() {
                     </Link>
                     <Link href="/signout">
                         <Button
-                            variant="outline"
+                            variant="secondary"
                             className="text-white bg-secondary-600 hover:bg-white hover:text-secondary-700 rounded-lg">
                             Sign Up
                         </Button>
